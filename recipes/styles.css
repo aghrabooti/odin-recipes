@@ -1,0 +1,22 @@
+body{
+    background-color: blueviolet;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 520px;
+    width: auto;
+    border-radius: 25px;
+    border: 2PX SOLID BLACK;
+}
