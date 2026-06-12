@@ -2,16 +2,26 @@ body{
     background-color: blueviolet;
 }
 
-h1{
+h1, h2, p, ul, ol, li{
     text-align: center;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
 }
 
 .imageContainer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+p, ul, ol, li{
+    font-size: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 img{
