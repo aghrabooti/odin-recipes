@@ -31,3 +31,14 @@ img{
     border-radius: 25px;
     border: 2PX SOLID BLACK;
 }
+
+.link{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.link a{
+    font-size: 20px;
+    color: white;
+
+}
