@@ -2,7 +2,7 @@ body{
     background-color: blueviolet;
 }
 
-h1, h2, p, ul, ol, li{
+h1, h2, p, ul, ol{
     text-align: center;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 60px;
@@ -18,10 +18,11 @@ h2{
     align-items: center;
 }
 
-p, ul, ol, li{
+p, ul, ol{
     font-size: 25px;
-    margin-right: 100px;
-    margin-left: 100px;
+    max-width: 75%;
+    margin: auto;
+    text-align: left;
 }
 
 img{
